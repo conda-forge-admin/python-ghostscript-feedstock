@@ -23,7 +23,7 @@ build:
 requirements:
   host:
     - ghostscript
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - pip
     - setuptools
   run:
